@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Google</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Top navigation -->
+  <header class="top-nav">
+    <a href="#">Gmail</a>
+    <a href="#">Images</a>
+    <div class="apps-icon" tabindex="0"></div>
+    <button class="sign-in">Sign in</button>
+  </header>
+
+  <!-- Main content -->
+  <main class="main">
+    <!-- Google Logo -->
+    <img class="logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo">
+
+    <!-- Search Form -->
+    <form class="search-form" action="https://www.google.com/search" method="GET" target="_blank">
+      <div class="search-box">
+        <svg class="search-icon" viewBox="0 0 24 24" width="20" height="20">
+          <circle cx="11" cy="11" r="6" stroke="currentColor" stroke-width="2" fill="none"/>
+          <line x1="17" y1="17" x2="21" y2="21" stroke="currentColor" stroke-width="2"/>
+        </svg>
+        <input type="text" name="q" autocomplete="off" required>
+        <img class="mic" src="https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png" alt="Voice Search">
+      </div>
+      <div class="buttons">
+        <button type="submit">Google Search</button>
+        <button type="submit" name="btnI" value="I’m Feeling Lucky">I'm Feeling Lucky</button>
+      </div>
+    </form>
+
+    <!-- Languages -->
+    <div class="lang">
+      Google offered in: 
+      <a href="#">हिन्दी</a> <a href="#">বাংলা</a> <a href="#">తెలుగు</a> 
+      <a href="#">मराठी</a> <a href="#">தமிழ்</a> <a href="#">ગુજરાતી</a>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-top">India</div>
+    <div class="footer-links">
+      <div class="left">
+        <a href="#">About</a>
+        <a href="#">Advertising</a>
+        <a href="#">Business</a>
+        <a href="#">How Search works</a>
+      </div>
+      <div class="right">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Settings</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
